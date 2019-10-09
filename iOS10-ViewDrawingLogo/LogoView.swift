@@ -19,7 +19,7 @@ import UIKit
             let topPoint = CGPoint(x: 100, y: 200)
             let bottomPoint = CGPoint(x: 100, y: 300)
             let rightPoint = CGPoint(x: 300, y: 200)
-            let middleBottomPoint = CGPoint(x: 200, y: 400)
+            let middleBottomPoint = CGPoint(x: 200, y: 390)
             let rightBottomPoint = CGPoint(x: 300, y: 300)
             
             //            let topPoint = CGPoint(x: rect.size.width / 6, y: rect.size.height / 10)
@@ -51,7 +51,7 @@ import UIKit
                 slasherContext.addLine(to: whiteSideLineLeft)
                 slasherContext.move(to: whiteTop)
                 slasherContext.addLine(to: whiteSideLineRight)
-                slasherContext.setLineWidth(13)
+                slasherContext.setLineWidth(20)
                 slasherContext.setStrokeColor(UIColor.white.cgColor)
                 slasherContext.strokePath()
                 
